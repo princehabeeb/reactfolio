@@ -1,0 +1,48 @@
+.blog{
+    background-color: #edf7fa;
+    width: 100%;
+    height: 40vh;
+}
+
+.label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+
+
+
+.blogs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogs .blog1{
+    background-color: #ffffff;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+@media screen and (max-width: 900px){
+    .blogs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .blog{
+        height: auto;
+    }
+
+
+    .blogs .blog1{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+}
