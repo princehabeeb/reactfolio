@@ -2,7 +2,12 @@ import React from 'react'
 
 const Works = () => {
   return (
-    <div>Works</div>
+    <div>
+      <h2>Featured works</h2>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
   )
 }
 
