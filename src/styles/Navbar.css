@@ -28,3 +28,40 @@ a{
 .logo span {
     color: #ff6464;
 }
+
+.menuIcon{
+    display: none;
+}
+
+
+@media screen and (max-width:900px){
+    nav{
+        position: relative;
+    }
+    nav ul{
+        position: absolute;
+        margin-top: 380px ;
+        background-color: #c1c1c1;
+        width: 90%;
+        padding: 20px;
+        transition: 0.3s ease;
+    }
+
+    nav ul li{
+    display: block;
+    margin-right: 0px;
+    margin-top: 40px;
+    padding: 12px 8px;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    background-color: #ffffff;
+
+}
+
+.menuIcon{
+    display: block;
+}
+
+}

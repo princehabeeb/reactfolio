@@ -34,7 +34,22 @@
 }
 
 
-@me
+@media screen and (max-width: 900px){
+    .works{
+        width: 100%;
+    }
+
+    .project{
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .image img{
+        width: 100%;
+    }
+
+
+}
 
 
 
